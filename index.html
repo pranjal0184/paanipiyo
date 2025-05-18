@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="icon.png" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <title>Paani Piyo</title>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1><i class="fas fa-tint"></i> Paani Tracker</h1>
+      <p>Your Daily Hydration Tracker</p>
+    </header>
+
+    <section class="goal-controls">
+      <h3>Target: <span id="waterTarget">2</span> Liters</h3>
+      <button id="decrease" class="adjust-btn">−</button>
+      <button id="increase" class="adjust-btn">+</button>
+    </section>
+
+    <section class="tracker-row">
+      <div class="left-section">
+        <div class="glass-meter" id="glassMeter">
+          <div class="fill-level" id="fillLevel"></div>
+          <div class="remaining" id="remaining">
+            <span id="leftLiters">2L</span>
+            <small>Remaining</small>
+          </div>
+        </div>
+      </div>
+      <div class="right-section">
+        <div class="glass-grid" id="glassGrid"></div>
+      </div>
+    </section>
+
+    <p class="instruction">Tap a glass every time you drink water</p>
+
+    <!-- Congratulations Modal -->
+    <div id="congratsModal" class="congrats-modal hidden">
+      <div class="congrats-card">
+        <h2>🎉 Congratulations!</h2>
+        <p>You’ve reached your hydration goal for today!</p>
+        <button id="closeModal">Nice!</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
