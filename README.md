@@ -12,7 +12,7 @@ PaaniPiyo is a fun and friendly hydration reminder web app designed to help user
 
 <img width="794" alt="image" src="https://github.com/user-attachments/assets/f1e0f2f3-37ed-4266-b4fb-d16c70788bd5" />
 
-##🧪 Upcoming Features
+## 🧪 Upcoming Features
 
 -🌗 Dark Mode
 -🧠 AI-powered personalized hydration plans
