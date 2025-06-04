@@ -7,8 +7,6 @@ PaaniPiyo is a fun and friendly hydration reminder web app designed to help user
 - 🕒 Periodic hydration reminders
 - 💧 Water intake tracker
 - 🧠 Simple and clean UI
-- 🔔 Notification system (if applicable)
-- 📈 Stats/Progress tracking (if implemented or planned)
 
 ## 📸 Demo
 
